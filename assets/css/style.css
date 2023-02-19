@@ -146,8 +146,15 @@ body {
     margin-top: 40px;
 }
 
-.car__item-img {
+
+.car__item-img img{
     vertical-align: bottom;
+    transition: all .3s;
+}
+
+.car__item-img:hover img {
+    transform: scale(1.1);
+
 }
 
 .car__item-title {
